@@ -7,6 +7,7 @@ export default {
     extend: {
       colors: {
           furriesGreen: "rgba(0, 109, 119, 1)",
+          furriesOrange: "rgba(255, 111, 97, 1)"
 
       },
       letterSpacing: {
