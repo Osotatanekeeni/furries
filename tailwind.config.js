@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        
+          furriesGreen: "rgba(0, 109, 119, 1)",
 
       },
       letterSpacing: {

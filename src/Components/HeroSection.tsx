@@ -3,7 +3,7 @@ import Navigation from './Navigation'
 
 function HeroSection() {
   return (
-    <div className='border-4 h-screen w-screen'>
+    <div className='bg-furriesGreen h-screen w-screen'>
         <Navigation />
     </div>
   )
