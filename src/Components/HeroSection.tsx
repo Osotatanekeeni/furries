@@ -10,7 +10,7 @@ function HeroSection() {
         <div className='flex w-full flex-col gap-4 px-16 py-4 font-medium lg:w-1/2'>
             <h1 className='text-4xl lg:text-6xl' style={{ fontFamily: "Playfair Display"}}>TREAT YOUR FURRY FRIENDS TO THE BEST</h1>
             <p className='text-lg font-light lg:whitespace-nowrap' style={{ fontFamily: "Urbanist"}}>Discover Toys treats and more for your beloved pets</p>
-            <button className='mt-8 w-2/6 rounded-3xl bg-furriesOrange p-3 font-light' style={{ fontFamily: "Urbanist"}}>Shop Now</button>
+            <button className='mt-8 w-full sm:w-2/6 rounded-3xl bg-furriesOrange p-3 font-light' style={{ fontFamily: "Urbanist"}}>Shop Now</button>
         </div>
 
         {/* Image Section */}
