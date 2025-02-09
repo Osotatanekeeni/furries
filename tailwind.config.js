@@ -17,6 +17,9 @@ export default {
         'extra-wide': '0.2em',
         'super-wide': '0.4em',
         'ultra-wide': '0.6em',
+      },
+      backgroundImage: {
+        'button-gradient': 'linear-gradient(to right,rgba(255, 111, 97, 1), rgba(153, 67, 58, 1))',
       }
     },
     fontFamily: {
