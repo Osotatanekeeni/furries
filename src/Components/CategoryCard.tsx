@@ -15,9 +15,8 @@ function CategoryCard({ name, image, color}: ICategoryCard) {
         lightBlue: "rgba(200, 233, 233, 1)"
     }[color];
 
-    console.log(color)
   return (
-    <div className=''>
+    <div className='transition-transform transform hover:scale-105'>
         <div className={`bg-${color}`} style={{ backgroundColor: bgColor }}>
             
             <img src={image} alt={name} className='h-60 w-40'/>
