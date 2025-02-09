@@ -1,6 +1,7 @@
 import CategorySection from "./Components/CategorySection";
 import HeroSection from "./Components/HeroSection";
 import PicksSection from "./Components/PicksSection";
+import ProductsSection from "./Components/ProductsSection";
 import PetCare from "./assets/Images/PetCare.svg";
 
 
@@ -10,9 +11,10 @@ function App() {
       <HeroSection />
       <CategorySection />
       <PicksSection />
-        <div className="py-10">
+        <div className="pb-10 sm:py-10">
         <img src={PetCare} alt="Pet Care" className="w-screen" />
         </div>
+        <ProductsSection />
     </div>
   );
 }

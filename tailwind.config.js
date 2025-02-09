@@ -12,7 +12,8 @@ export default {
           lightPeach: "rgba(255, 206, 201, 1)",
           teal: "rgba(77, 182, 177, 1)",
           lightBlue: "rgba(200, 233, 233, 1)",
-          furriesBackground: "rgba(246, 246, 246, 1)"
+          furriesBackground: "rgba(246, 246, 246, 1)",
+          buttonBorder: "rgba(200, 233, 233, 1)"
       },
       letterSpacing: {
         'extra-wide': '0.2em',
