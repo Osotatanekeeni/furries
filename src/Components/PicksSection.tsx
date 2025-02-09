@@ -26,7 +26,7 @@ const scrollLeft = () => {
 
   return (
     <div className="relative flex flex-col gap-8 px-20  py-10">
-        <h1 className='border text-center text-2xl text-furriesGreen' style={{ fontFamily: "Playfair Display"}}>Paw-some Picks For Your Pet</h1>
+        <h1 className='text-center text-2xl text-furriesGreen' style={{ fontFamily: "Playfair Display"}}>Paw-some Picks For Your Pet</h1>
         <div ref={scrollContainerRef} className='flex gap-9 overflow-x-auto'>
         <PicksCard description="Pet Grooming Brush with Steam For Thick Furs" image={BrushImage} price="42 000" rating={4} />
         <PicksCard description="Wucin Gadi Resin Cartoon Castle Aquarium Jewelry" image={CastleImage} price="59 000" rating={5} />
