@@ -13,7 +13,10 @@ export default {
           teal: "rgba(77, 182, 177, 1)",
           lightBlue: "rgba(200, 233, 233, 1)",
           furriesBackground: "rgba(246, 246, 246, 1)",
-          buttonBorder: "rgba(200, 233, 233, 1)"
+          buttonBorder: "rgba(200, 233, 233, 1)",
+          cardBorder: "rgba(0, 109, 119, 0.25)",
+          textblack: "rgba(74, 74, 74, 1)",
+          furriesBeige: "rgba(255, 244, 225, 1)"
       },
       letterSpacing: {
         'extra-wide': '0.2em',

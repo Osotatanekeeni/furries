@@ -9,8 +9,8 @@ interface IPicksCard {
 }
 function PicksCard({ description, image, price, rating}: IPicksCard) {
   return (
-    <div className='flex w-60 flex-col justify-between gap-4 rounded-xl bg-white p-3'>
-        <div className='flex size-40 border border-black items-center justify-center'>
+    <div className='flex w-60 border border-cardBorder flex-col justify-between gap-4 rounded-xl bg-white p-3'>
+        <div className='flex size-40 items-center justify-center'>
         <img src={image} alt={description} className='size-40'/>
         </div>
         <p className='text-xs font-light' style={{ fontFamily: "Urbanist"}}>{description}</p>

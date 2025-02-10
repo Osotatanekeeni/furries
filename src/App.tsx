@@ -1,4 +1,5 @@
 import CategorySection from "./Components/CategorySection";
+import DealSection from "./Components/DealSection";
 import HeroSection from "./Components/HeroSection";
 import PicksSection from "./Components/PicksSection";
 import ProductsSection from "./Components/ProductsSection";
@@ -15,6 +16,7 @@ function App() {
         <img src={PetCare} alt="Pet Care" className="w-screen" />
         </div>
         <ProductsSection />
+        <DealSection />
     </div>
   );
 }
