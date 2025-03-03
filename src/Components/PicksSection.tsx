@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import  { useRef } from 'react'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import BrushImage from "../assets/Images/PicksImages/PetBrush.svg"
 import CastleImage from "../assets/Images/PicksImages/Castle.svg"

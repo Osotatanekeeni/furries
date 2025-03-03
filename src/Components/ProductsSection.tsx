@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import BrushImage from "../assets/Images/PicksImages/PetBrush.svg"
 import CastleImage from "../assets/Images/PicksImages/Castle.svg"
@@ -48,10 +48,10 @@ function ProductsSection() {
         }
   return (
     <div className="relative flex flex-col gap-8 px-20 py-10">
-        <div className='flex flex-col sm:flex-row  w-full gap-2 sm:gap-6'>
-            <button className={`rounded-xl p-2 border border-buttonBorder font-medium text-lg ${isPetToysClicked ? "text-furriesGreen border-none" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handlePetToysClick}>Pet Toys</button>
-            <button className={`rounded-xl p-2 border border-buttonBorder font-medium text-lg ${isPetFoodClicked ? "text-furriesGreen border-none" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handlePetFoodClick}>Pet Food</button>
-            <button className={`rounded-xl p-2 border border-buttonBorder font-medium text-lg ${isPetProductsClicked ? "text-furriesGreen border-none" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handleProductsClick}>Pet Accessories</button>
+        <div className='flex w-full flex-col  gap-2 sm:flex-row sm:gap-6'>
+            <button className={`rounded-xl border border-buttonBorder p-2 text-lg font-medium ${isPetToysClicked ? "border-none text-furriesGreen" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handlePetToysClick}>Pet Toys</button>
+            <button className={`rounded-xl border border-buttonBorder p-2 text-lg font-medium ${isPetFoodClicked ? "border-none text-furriesGreen" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handlePetFoodClick}>Pet Food</button>
+            <button className={`rounded-xl border border-buttonBorder p-2 text-lg font-medium ${isPetProductsClicked ? "border-none text-furriesGreen" : "text-black"}`} style={{ fontFamily: "Playfair Display"}} onClick={handleProductsClick}>Pet Accessories</button>
         </div>
         <div ref={scrollContainerRef} className='flex gap-9 overflow-x-auto'>
 

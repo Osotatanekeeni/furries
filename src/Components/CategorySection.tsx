@@ -1,4 +1,3 @@
-import React from 'react'
 import CategoryCard from './CategoryCard'
 import CatImage from "../assets/Images/CategoryImages/Cat.svg"
 import DogImage from "../assets/Images/CategoryImages/Dog.svg"

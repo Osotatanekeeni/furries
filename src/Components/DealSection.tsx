@@ -1,4 +1,3 @@
-import React from "react";
 import DealImage from "../assets/Images/DealImage.svg";
 import MemberImage from "../assets/Images/MemberImage.svg";
 import PurrImage from "../assets/Images/PurrImage.svg";

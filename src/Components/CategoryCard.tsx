@@ -1,5 +1,4 @@
-import React from 'react'
-
+/* eslint-disable tailwindcss/no-custom-classname */
 interface ICategoryCard {
     name: string;
     image: string;
@@ -16,7 +15,7 @@ function CategoryCard({ name, image, color}: ICategoryCard) {
     }[color];
 
   return (
-    <div className='transition-transform transform hover:scale-105'>
+    <div className='transition-transform hover:scale-105'>
         <div className={`bg-${color}`} style={{ backgroundColor: bgColor }}>
             
             <img src={image} alt={name} className='h-60 w-40'/>

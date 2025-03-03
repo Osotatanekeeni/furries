@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaPaw } from 'react-icons/fa';
 
 interface IPicksCard {
@@ -9,7 +8,7 @@ interface IPicksCard {
 }
 function PicksCard({ description, image, price, rating}: IPicksCard) {
   return (
-    <div className='flex w-60 border border-cardBorder flex-col justify-between gap-4 rounded-xl bg-white p-3'>
+    <div className='flex w-60 flex-col justify-between gap-4 rounded-xl border border-cardBorder bg-white p-3'>
         <div className='flex size-40 items-center justify-center'>
         <img src={image} alt={description} className='size-40'/>
         </div>
